@@ -1,9 +1,6 @@
-function App() {
-  return (
-    <>
-      <div>Ola</div>
-    </>
-  );
-}
+import AppRoutes from "./routes/AppRoutes";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-export default App;
+export default function App() {
+  return <AppRoutes />;
+}
